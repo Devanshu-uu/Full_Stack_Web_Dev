@@ -8,3 +8,11 @@ h2, h3{
 .name{
     color: chartreuse;
 }
+#unique{
+    color: coral;
+    background-color: rgb(20, 197, 220);
+}
+
+*{
+    color: blueviolet;
+}
