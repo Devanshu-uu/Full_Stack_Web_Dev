@@ -1,3 +1,10 @@
 span{
     color: rgb(255, 246, 127);
 }
+
+h2, h3{
+    color: brown;
+}
+.name{
+    color: chartreuse;
+}
