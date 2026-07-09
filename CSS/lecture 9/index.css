@@ -36,3 +36,39 @@ a ~p{
 h1:hover{
     color: red ;
 }
+
+li:hover{
+    color: orange;
+    
+}
+#unique:hover{
+    color: rgb(25, 154, 214);
+}
+/* 
+li:first-child{
+    color: aquamarine;
+}
+
+li:last-child{
+    color: rgb(219, 7, 7);
+} */
+/* 
+li:nth-child(2n){
+    color: violet;
+}
+li:nth-child(2n+1){
+    color: violet;}
+ */
+
+h1::before{
+    content: "Oye ";
+}
+
+h1::after{
+    content: " Samaj gya na ";
+}
+
+h1::selection{
+    color: blue;
+    background-color: aqua;
+}
