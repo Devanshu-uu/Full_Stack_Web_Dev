@@ -1,4 +1,4 @@
-span{
+/* span{
     color: rgb(255, 246, 127);
 }
 
@@ -15,4 +15,24 @@ h2, h3{
 
 *{
     color: blueviolet;
+} */
+/* 
+div p {
+    color: yellow;
+}
+
+div >P{
+    color: gold;
+}
+
+a+p{
+    color: darkblue;
+} */
+
+a ~p{
+    color: brown;
+}
+
+h1:hover{
+    color: red ;
 }
