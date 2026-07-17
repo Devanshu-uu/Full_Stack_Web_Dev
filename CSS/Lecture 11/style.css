@@ -1,0 +1,36 @@
+/* h1{
+    background-color: rgb(155, 131, 131);
+} */
+
+/* #wrapper{ */
+    /* background: linear-gradient(to  left,red, rgb(39, 86, 198)); */
+    /* background: linear-gradient(45deg,red, rgb(39, 86, 198),yellow,pink);
+    background: radial-gradient(red,pink);
+    background: radial-gradient(circle,red,pink);
+    background: conic-gradient(red,blue) */
+    /* background-image: url(https://cdn.pixabay.com/photo/2024/05/26/10/15/bird-8788491_1280.jpg); */
+    /* height: 500px; */
+    /* background-repeat: no-repeat;
+    background-position: top; */
+    /* background-size: contain; */
+    /* background-size: cover; */
+
+/* } */
+
+#wrapper{
+     border: 10px solid yellowgreen; 
+    /* border-top: 4px solid red; */
+    /* border-left: 4px solid rgb(170, 117, 117);  */
+    /* border-radius: 10px;
+    border-top-left-radius: 0; */
+
+
+
+}
+p{
+    /* padding: 20px; */
+    /* padding-left: 30px ; */
+    /* padding: 0px 0px 0px 40px; */
+    /* padding: 0 100px; */
+    /* padding: 0px 10px 0px; */
+}
