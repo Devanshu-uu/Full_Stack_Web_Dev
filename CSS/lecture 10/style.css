@@ -1,0 +1,40 @@
+#bhai{
+    font-family: "Yuyu";
+}
+#dev{
+    font-size: 50px;
+}
+p{
+    font-size: 30px;
+    font-weight:bolder ;
+}
+
+#gupil{
+    font-style: italic;
+    font-variant:small-caps;
+    
+
+}
+.lorem{
+    line-height: 1;
+    letter-spacing: 2px;
+    word-spacing: 43px;
+}
+
+#piyush{
+    text-align: center;
+}
+#jahanvi{
+    text-align: center;
+    border: 1px solid black;
+    display: block;
+    /* text-decoration: underline dashed rebeccapurple ; */
+    text-decoration: underline wavy rgb(33, 11, 144);
+    text-transform: uppercase;
+    text-indent: 5px;
+    text-shadow: 10px 5px 10px rebeccapurple;
+}
+
+
+  
+
