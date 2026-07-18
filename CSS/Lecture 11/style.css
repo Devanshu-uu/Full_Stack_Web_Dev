@@ -1,3 +1,9 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
 /* h1{
     background-color: rgb(155, 131, 131);
 } */
@@ -24,6 +30,8 @@
     /* border-radius: 10px;
     border-top-left-radius: 0; */
     margin: 40px;
+    width: 1000px;
+    padding: 0px 20px 0px;
 
 
 
@@ -48,3 +56,4 @@ span{
     border: 2px solid black;
     margin: auto;
 }
+
