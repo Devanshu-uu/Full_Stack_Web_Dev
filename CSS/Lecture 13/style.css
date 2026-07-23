@@ -1,0 +1,16 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.card{
+    border: 1px solid black;
+    width: 100px;
+    height: 100px;
+    background-color: chocolate;
+    
+}
+.wrapper{
+    display: flex;
+}
