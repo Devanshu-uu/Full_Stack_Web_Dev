@@ -388,20 +388,21 @@ span{
 }
 
 article p:nth-of-type(2){
-    padding: 10px 20px;
+    padding: 20px 20px;
     font-family: var(--font-body);
 }
 
 article p:last-of-type mark{
     position: absolute;
-    padding: 5px 20px;
+    padding: 6px 15px;
     border-radius: var(--radius-lg);
     top: 25px;
     right: 20px;
     background: var(--gradient-accent);
     font-family: var(--font-display);
     font-weight: 600;
-    color: white;
+    color: var(--white)
+
 
     
 
@@ -412,14 +413,17 @@ article a{
     padding: 6px 20px;
     font-family :var(--font-display);
     text-transform: uppercase;
-    letter-spacing: 1.8px;
+    letter-spacing: 0.1em;
     text-decoration: underline;
+    text-underline-offset: 3px;
+    font-weight: 20;
 
 
 }
 
 article a:hover{
     color: var(--color-secondary);
+    
 }
 
 
@@ -431,8 +435,8 @@ article p strong{
 }
 
 article button{
-    height: 40px;
-    width: 330px;
+    /* height: 40px;
+    width: 330px; */
     display: inline-block;
     margin-left: 18px;
     margin-top: 10px;
@@ -440,8 +444,16 @@ article button{
     font-family: var(--font-display);
     text-transform: uppercase;
     font-weight: 600;
+    padding: 10px 20px;
 }
 article:hover{
     border: 1px solid var(--color-primary);
+    box-shadow: 0 10px 10px var(--color-primary-glow);;
+    
 
+}
+article button:hover{
+    background: var(--color-primary);
+    color: var(--white);
+    cursor: pointer;
 }
