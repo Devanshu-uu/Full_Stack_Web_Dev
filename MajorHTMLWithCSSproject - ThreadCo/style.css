@@ -273,12 +273,18 @@ main {
     flex: 1;
     position: relative;
 
+
 }
 
 .right-hero img {
-    height: 96%;
     z-index: -2;
+    
+
 }
+.right-hero img:hover {
+    size-adjust: 10px;
+}
+
 
 #live {
     font-size: small;
