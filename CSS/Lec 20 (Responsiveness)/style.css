@@ -10,4 +10,7 @@
     height: 100vh;
 }
 
-@media
+@media [max-width: 575px]{
+    
+
+}
