@@ -35,6 +35,13 @@ console.log(collegeName);
 
 // console.log(tempLitreal)
 
-const Name="Devanshu"
-const greetingMessage=`Hi,${Name}`
-console.log(greetingMessage)
+// const Name="Devanshu"
+// const greetingMessage=`Hi,${Name}`
+// console.log(greetingMessage)
+
+// const isAdult=false;
+// console.log(isAdult)
+
+let udefined;
+console.log(typeof udefined)
+
