@@ -23,3 +23,18 @@ const aadharcard=343546457657;
 console.log(aadharcard);
 
 
+let collegeName="ShivaJi College"
+console.log(typeof collegeName);
+console.log(collegeName);
+
+
+// const doubleQuote="Hi Bhai";
+// const singleQuote='Hello'
+// const tempLitreal=`Hiii
+// dsf`
+
+// console.log(tempLitreal)
+
+const Name="Devanshu"
+const greetingMessage=`Hi,${Name}`
+console.log(greetingMessage)
