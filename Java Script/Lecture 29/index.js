@@ -4,3 +4,4 @@ age=21;
 // console.log(age);
 name="Devanshu";
 console.log(name,age);
+
