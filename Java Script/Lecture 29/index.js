@@ -19,9 +19,7 @@
 // console.log(name);
 
 const aadharcard=343546457657;
-// aadharcard=567567654423;  b 
+// aadharcard=567567654423;  
 console.log(aadharcard);
-
-
 
 
