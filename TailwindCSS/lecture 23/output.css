@@ -266,6 +266,9 @@
     .md\:hidden {
       display: none;
     }
+    .md\:justify-around {
+      justify-content: space-around;
+    }
     .md\:justify-between {
       justify-content: space-between;
     }
