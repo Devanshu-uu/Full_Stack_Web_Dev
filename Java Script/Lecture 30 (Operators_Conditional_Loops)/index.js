@@ -12,3 +12,5 @@ let num2=4;
 
 console.log(++num1)
 console.log(num1++)
+
+console.log("5"===5)
