@@ -30,7 +30,7 @@ console.log(collegeName);
 
 // const doubleQuote="Hi Bhai";
 // const singleQuote='Hello'
-// const tempLitreal=`Hiii
+// const templateLitreal=`Hiii
 // dsf`
 
 // console.log(tempLitreal)
