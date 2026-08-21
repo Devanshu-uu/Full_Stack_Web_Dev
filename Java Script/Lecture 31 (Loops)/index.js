@@ -1,9 +1,9 @@
-for (let i=1;i<=5;i++){
-    console.log(i);
-}
-// a=1;
-// while(a<=10){
-//     console.log(a);
-//     a++;
+// for (let i=1;i<=5;i++){
+//     console.log(i);
 // }
+let i=1;
+while(i<=5){
+    console.log(i);
+    i++;
+}
  
