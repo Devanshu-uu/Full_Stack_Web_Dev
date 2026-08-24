@@ -12,4 +12,9 @@ function total( studentname, math ,sci){
 total("dev" ,23,64)
 
 
-function 
+function greeting(name){
+    console.log(`Hi ${name}`);
+}
+greeting("dev")
+greeting("dev")
+greeting("dev")
