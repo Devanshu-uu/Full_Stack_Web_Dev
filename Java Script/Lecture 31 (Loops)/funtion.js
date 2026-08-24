@@ -36,17 +36,31 @@
 // caculator(2,2,"-")  
 
 
-function total( math ,sci){
-    return math+sci;
+// function total( math ,sci){
+//     return math+sci;
+// }
+
+
+// function calper(studentname, math ,sci){
+//     let totaMarks=total(math ,sci);
+//     let percentage= totaMarks/200*100;
+//     console.log(`Total Marks: ${totaMarks} Percentage: ${percentage}`);
+
+
+// }
+
+// calper("Devanshu" ,23,56)
+
+
+
+
+// let add = function (num1,num2){
+//     return num1 +num2;
+// }
+
+
+
+let add = (num1,num2) =>{
+    return num1+num2
 }
-
-
-function calper(studentname, math ,sci){
-    let totaMarks=total(math ,sci);
-    let percentage= totaMarks/200*100;
-    console.log(`Total Marks: ${totaMarks} Percentage: ${percentage}`);
-
-
-}
-
-calper("Devanshu" ,23,56)
+console.log(add(1,2));
