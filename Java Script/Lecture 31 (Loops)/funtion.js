@@ -10,3 +10,6 @@ function total( studentname, math ,sci){
 }
 
 total("dev" ,23,64)
+
+
+function 
