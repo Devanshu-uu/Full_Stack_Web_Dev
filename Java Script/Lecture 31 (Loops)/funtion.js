@@ -87,11 +87,13 @@
 //     return Number;
 // }
 
-// console.log(convertnumbertopositive(-345));
+// console.log(convertnumbertopositive(-345));  
 
-let min=1,max=6;
-function dice(){
-    console.log(Math.floor(Math.random()*(max-min+1)+min));
-}
+// let min=1,max=6;
+// function dice(){
+//     console.log(Math.floor(Math.random()*(max-min+1)+min));
+// }
 
-dice()
+// dice()
+
+console.log(Date.now());
