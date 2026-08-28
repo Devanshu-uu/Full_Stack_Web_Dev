@@ -72,9 +72,21 @@
 
 
 
-function sum(a,b){
-    return a+b;
+// function sum(a,b){
+//     return a+b;
+// }
+
+// console.log(sum(43,56));
+
+
+
+function change(Number){
+    if(Number <0){
+        Number=Number/-1;
+    return Number
+    
+    
+    }
 }
 
-console.log(sum(43,56));
-
+console.log(change(345));
