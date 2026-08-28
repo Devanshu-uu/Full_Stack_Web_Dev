@@ -64,3 +64,8 @@ let add = (num1,num2) =>{
     return num1+num2
 }
 console.log(add(1,2));
+let sub = (num1,num2) =>{
+    return num1-num2
+}
+console.log(add(1,2));
+console.log(sub(1,2));
