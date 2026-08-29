@@ -1,4 +1,21 @@
 {
-    "livePreview.defaultPreviewPath": "/Html/lec5/tables/assigment1_Tables.html",
-    "liveServer.settings.port": 5501
+  "livePreview.defaultPreviewPath": "/Html/lec5/tables/assigment1_Tables.html",
+  "liveServer.settings.port": 5501,
+  "editor.formatOnSave": true,
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[css]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[vue]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }
