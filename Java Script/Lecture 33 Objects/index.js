@@ -34,12 +34,20 @@ let product1=["iphone","red"]
 //     console.log(value);
 // }
 
-for(value in product1){
-    console.log(value);
-}
+// for(value in product1){
+//     console.log(value);
+// }
 
 // product1.forEach(function(value){
 //     console.log(value);
 // })
 
-de
+// destructing
+
+// let [a,b]=product1
+// console.log(a);
+// console.log(b);
+
+
+let {name,price,rating}=product
+console.log(rating);
