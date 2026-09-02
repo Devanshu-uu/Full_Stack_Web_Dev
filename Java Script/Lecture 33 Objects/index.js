@@ -49,5 +49,22 @@ let product1=["iphone","red"]
 // console.log(b);
 
 
-let {name,price,rating}=product
-console.log(rating);
+// let {name,price,rating}=product
+// console.log(rating);
+
+
+// for ([key,value] of Object.entries(product)){
+//     console.log(value);
+// }
+
+
+// a=[1,2]
+// b=[3,4]
+
+// console.log(...a);
+
+
+
+let {name, ...allinfo}=product
+console.log(name);
+console.log(allinfo);  // rest api
