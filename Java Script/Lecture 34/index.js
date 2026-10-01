@@ -94,3 +94,6 @@ let resindex=arr.findIndex((value)=>{
  arrcopy.pop()
  console.log(arr4);
  console.log(arrcopy);
+
+
+ 
