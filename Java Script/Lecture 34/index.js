@@ -87,3 +87,10 @@ let resindex=arr.findIndex((value)=>{
 // console.log(arr1.flat(Infinity));
 
 
+ let arr4=[3,34,45,2,4,6,7]
+
+ let arrcopy=[...arr4] // spread operator
+
+ arrcopy.pop()
+ console.log(arr4);
+ console.log(arrcopy);
