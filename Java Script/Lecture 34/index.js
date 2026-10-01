@@ -59,5 +59,31 @@ let arr=[1,2,3,4,5,6]
 // arr.pop()
 // arr.shift()
 
-arr.splice(1,3)
-console.log(arr);
+// arr.splice(1,3)
+// arr.splice(3,0,"Deva")
+// arr.splice(3,2,["Jahanvi"])
+// let trimarr=arr.slice(0,2)
+// console.log(trimarr);
+
+
+// console.log(arr.indexOf(7)); // if not present then give -1 else index
+
+let res=arr.find((value) => {
+    return value=== 3
+
+})
+// console.log(res);
+
+let resindex=arr.findIndex((value)=>{
+    return value ===3;
+})
+
+// console.log(resindex);
+
+
+// let arr1=[1,2,3,4,6,7,[8,9,[10,11,12,13,14,15]]]
+// console.log(arr1.flat());
+// console.log(arr1.flat(3));
+// console.log(arr1.flat(Infinity));
+
+
