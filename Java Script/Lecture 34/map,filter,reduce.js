@@ -82,6 +82,9 @@ console.log(failstudents);
 
 const failstudents1=students.filter(student=>{
     return student.marks <33
+}).map(student=>{
+    return student.name
 })
 
 console.log(failstudents1);
+
