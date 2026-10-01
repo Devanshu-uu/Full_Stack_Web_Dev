@@ -39,19 +39,25 @@ let Student ={
 // let obj3 ={...obj1,...obj2}
 // console.log(obj3);
 
-const obj={
-    name: "Devanshu",
-    rollno:27,
-    address:null
-}
+// const obj={
+//     name: "Devanshu",
+//     rollno:27,
+//     address:null
+// }
 
-obj["name"]="Deva"
+// obj["name"]="Deva"
 
-obj.name="Jahanvi"
+// obj.name="Jahanvi"
 
-delete obj.rollno // priperty delete
-
-
-console.log(obj?.address); // optional chaining
+// delete obj.rollno // priperty delete
 
 
+// console.log(obj.address?.street); // optional chaining
+
+
+let arr=[1,2,3,4,5,6]
+// arr.pop()
+// arr.shift()
+
+arr.splice(1,3)
+console.log(arr);
