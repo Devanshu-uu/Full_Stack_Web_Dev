@@ -23,6 +23,35 @@ let Student ={
 // console.log(vishey);
 
 
-let {totalMarks=399}=Student;
-console.log(totalMarks);
+// let {totalMarks=399}=Student;
+// console.log(totalMarks);
+
+// let obj1={
+//     name:"Devanshu",
+//     phone:324234221
+// }
+
+// let obj2={
+//     address:"India", // in only india it represents the variable if variable is not declatred then result is undefined
+//     aadharCard:32423424234244
+// }
+
+// let obj3 ={...obj1,...obj2}
+// console.log(obj3);
+
+const obj={
+    name: "Devanshu",
+    rollno:27,
+    address:null
+}
+
+obj["name"]="Deva"
+
+obj.name="Jahanvi"
+
+delete obj.rollno // priperty delete
+
+
+console.log(obj?.address); // optional chaining
+
 
